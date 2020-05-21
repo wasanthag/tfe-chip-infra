@@ -1,0 +1,9 @@
+friendly_name_prefix  = "wg"
+ssh_key_pair          = "chip-key"
+tfe_license_file_path = "/home/gamagew/tmp/terraform-chip-tfe-is-terraform-aws-ptfe-v4-quick-install/examples/terraform-chip.rli"
+vpc_id                = "vpc-000768a5ee33922ee"
+alb_subnet_ids        = ["subnet-030506cbb8e7c4c6b", "subnet-0fed64e2b65e21d1b"]
+ec2_subnet_ids        = ["subnet-04e611b9ccd962fd7", "subnet-0b678871b25143e9a"]
+rds_subnet_ids        = ["subnet-00c74ed607649a778", "subnet-09e11a85cf3deb478"]
+tls_certificate_arn   = "arn:aws:acm:us-west-1:030126319734:certificate/d2077e00-3254-4174-bb16-7ee7462c6f83"
+tfe_initial_admin_pw  = "WWTwwt1!"
